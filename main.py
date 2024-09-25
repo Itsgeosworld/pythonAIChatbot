@@ -17,20 +17,6 @@ prompt = ChatPromptTemplate.from_template(template)
 chain = prompt | model
 
 
-# responsible for saving chat history into json file
-def save_conversation(data, filename="logs.json"):
-    try:
-        with open(filename, "r") as f:  # firstly reads data if file exists
-            current_data = json.load(f)
-    except FileNotFoundError:
-        current_data = []
-
-    current_data.append(data)
-
-    # updated chat history is written to file
-    with open(filename, "w") as f:
-        json.dump(current_data, f)
-
 
 def conversation():
     context = ""
@@ -46,6 +32,8 @@ def conversation():
 
 # The user's and chatbot's responses are appended to the list 
         chats.append({"User:": user_input, "ChatBot:": result})
+        # testing purposes which prints the user and ai's chat
+        print(context)
 
 
 if __name__ == "__main__":
