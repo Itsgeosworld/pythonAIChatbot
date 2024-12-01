@@ -2,7 +2,7 @@
 A simple AI chatbot ran locally using Ollama, where the user can interact with AI using its language model. This project was inspired by TechwithTim. 
 
 **Instructions**
-1. Visit [Ollama] (https://ollama.com/) to download the large language model (LLM) which would be responsible for running the chatbot on a local machine.
+1. Visit [Ollama](https://ollama.com/) to download the large language model (LLM) which would be responsible for running the chatbot on a local machine.
 2. To ensure the installation was successful, open the command prompt/terminal to verify the installation
    
    Enter the command, ***ollama***, which shows that Ollama is running and lists the available commands.
