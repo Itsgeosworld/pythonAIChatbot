@@ -7,7 +7,7 @@ A simple AI chatbot ran locally using Ollama, where the user can interact with A
    
    Enter the command, ***ollama***, which shows that Ollama is running and lists the available commands.
    
-3. There are different models that can be downloaded, but this is based on the user's PC requirements. For the sake of instructions, the Llama 3 model will be downloaded.
+3. There are different models that can be downloaded, but this is based on the user's PC requirements. The models are listed on Ollama's website. For the sake of instructions, the Llama 3 model will be downloaded.
    Enter the command, ***ollama pull llama3***
 4. To run the model, enter the command, ***ollama run llama3***. The user can interact with the LLM through the command prompt/terminal.
    
