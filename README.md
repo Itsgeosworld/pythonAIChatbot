@@ -22,3 +22,4 @@ A simple AI chatbot ran locally using Ollama, where the user can interact with A
    
 8. Install the required packages.
    In the terminal, enter the command: ***pip install langchain langchain-ollama ollama***
+9. Use the main source code! You're now able to run the AI model locally on the machine. Pull the ***main.py*** program and experiment with the Ollama model! 
